@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pirate Bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="text/style.css">
+     <link rel="stylesheet" href="vi/vibg.css">
+</head>
+<body>
+  <div id="displayNone" >
+    <video autoplay loop muted>
+        <source src="vi/ter.mp4" type="video/mp4">
+    </video>
+    <div class="text-box">
+        <h1 style="font-size: 130px; font-weight: 900;"><span style="position: relative; left: 130px;">WORLD CLASS-</span><span style="position: relative; left: 100px;">WEB DEVELOPER</span></h1>
+    </div>
+    <button id="lesgo"  style=" position: relative; left: 500px;" id="lesgo" class="btn btn-primary justify-content: center">LesGo</button>
+</div>
+
+
+  <section id="desplayBlock" >
+   <div id="loginarea">
+    <h1 id="Welcome" class=" text-center">Welcome The-Pirate-Bank</h1>
+    <div  class="submit">
+     <h4>Login</h4>
+     <input type="text" class="form-control" placeholder="Email">
+     <br>
+     <input type="password" class="form-control" placeholder="Password">
+     <br>
+     <button id="login" class="btn btn-primary text-light " >Enter</button>
+   </div>
+   
+ </div>
+ <div id="transactionAria">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="Deposit status">
+        <h5>Deposit</h5>
+      <h2>$ <span id="currentDeposit">00</span></h2>
+      </div>
+    </div>
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12 ">
+      <div class="Withdraw status">
+        <h5>Withdraw</h5>
+      <h2>$<span id="currentWithraw">00</span></h2>
+      </div>
+      </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="Balance status">
+        <h5>Balance</h5>
+      <h2>$<span id="currentBalence">1240</span></h2>
+</div>
+      
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 col-md-12">
+      <div class="submit">
+        <h4>Deposit</h4>
+      <input id="depositAmount" type="text" class="form-control" placeholder="$ amount you want to Withdraw">
+      <br>
+      <button id="addDeposit" class="btn btn-primary">Deposit</button>
+      </div>
+      
+    </div>
+
+    <div class="col-lg-6 col-md-12">
+      <div class="submit">
+        <h4>Withdraw</h4>
+      <input id="WithdrawAmount" type="text" class="form-control" placeholder="$ amount you want to Withdraw">
+      <br>
+      <button id="addWithdraw" class="btn btn-primary">Withdraw</button>
+      </div>
+      
+    </div>
+  </div>
+ </div>
+</section>
+
+    <!-- this is js boots start here -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <!-- this is js boots End here -->
+     <script src="text/script.js"></script>
+</body>
+</html>
